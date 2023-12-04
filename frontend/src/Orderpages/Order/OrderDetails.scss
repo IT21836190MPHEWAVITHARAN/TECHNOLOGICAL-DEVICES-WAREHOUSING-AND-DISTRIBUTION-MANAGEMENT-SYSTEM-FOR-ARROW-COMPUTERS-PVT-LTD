@@ -1,0 +1,72 @@
+/* Styles for the container */
+.container {
+    max-width: 800px; /* Set a max width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 30px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  }
+  
+  /* Styles for the order details */
+  .order-details {
+    background-color: #f0f0f0;
+  padding: 10px; /* Reduce padding to make it smaller */
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: auto; /* Remove margin-left to center horizontally */
+  margin-right: auto; /* Remove margin-right to center horizontally */
+  color: #03050c;
+  border: 1px solid #0056b3; /* Add a border for better visibility */
+  max-width: 80%;
+  overflow: hidden;
+  
+  }
+  
+  
+  h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+   
+  }
+  
+  /* Styles for order item list */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for buttons */
+  button {
+    background-color: #0c0e9f; /* Blue color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 11px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 12px;
+  }
+  
+  button:hover {
+    background-color: #101720; /* Darker blue on hover */
+  }
+  h3{
+    color: #0056b3;
+  }
+  /* CSS to make the "Order ID" text bold */
+strong {
+  font-weight: bold;
+}
+/* Your CSS file */
+.order-details-heading {
+  text-align: center;
+  color: #d75f1a;
+}
+
+ 
+  

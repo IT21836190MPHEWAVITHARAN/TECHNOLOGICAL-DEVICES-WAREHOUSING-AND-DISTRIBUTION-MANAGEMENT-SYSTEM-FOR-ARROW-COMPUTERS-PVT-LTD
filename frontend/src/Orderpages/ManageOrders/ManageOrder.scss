@@ -1,0 +1,67 @@
+/* Styles for the table */
+.t2 {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #0056b3; /* Set the border color to blue */
+  margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #0056b3; /* Set the border color for table cells to blue */
+  padding: 8px;
+  text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* Styles for the "VIEW" button */
+  .ew {
+    background-color: #2a1d7b; /* Blue color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Styles for the red "X" icon */
+  .fa-times {
+    color: red;
+  }
+  
+
+  @media print {
+    button {
+      display: none;
+    }
+  }
+  /* CSS for styling the search input */
+.search-input {
+  width: 45%; 
+  padding: 10px; 
+  border: 1px solid #0056b3; 
+  border-radius: 5px; 
+  font-size: 16px; 
+}
+
+/* CSS for placeholder text */
+.search-input::placeholder {
+  color: #999; /* Placeholder text color */
+}
+.b4{
+  background-color: #b66617; /* Blue color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
